@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/styles.less":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/styles.less":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./blocks/header/search-icon.svg":[["search-icon.2c36ba85.svg","css/blocks/header/search-icon.svg"],"css/blocks/header/search-icon.svg"],"./blocks/header/login-icon.svg":[["login-icon.68986608.svg","css/blocks/header/login-icon.svg"],"css/blocks/header/login-icon.svg"],"./blocks/header/menu-icon.svg":[["menu-icon.d0bcd458.svg","css/blocks/header/menu-icon.svg"],"css/blocks/header/menu-icon.svg"],"_css_loader":"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./blocks\\header\\search-icon.svg":[["search-icon.2c36ba85.svg","css/blocks/header/search-icon.svg"],"css/blocks/header/search-icon.svg"],"./blocks\\header\\login-icon.svg":[["login-icon.68986608.svg","css/blocks/header/login-icon.svg"],"css/blocks/header/login-icon.svg"],"./blocks\\header\\menu-icon.svg":[["menu-icon.d0bcd458.svg","css/blocks/header/menu-icon.svg"],"css/blocks/header/menu-icon.svg"],"./blocks\\services-section\\delivery-icon.svg":[["delivery-icon.014d7ffa.svg","css/blocks/services-section/delivery-icon.svg"],"css/blocks/services-section/delivery-icon.svg"],"./blocks\\services-section\\return-icon.svg":[["return-icon.99af3fde.svg","css/blocks/services-section/return-icon.svg"],"css/blocks/services-section/return-icon.svg"],"./blocks\\services-section\\support-icon.svg":[["support-icon.5f292984.svg","css/blocks/services-section/support-icon.svg"],"css/blocks/services-section/support-icon.svg"],"./blocks\\footer\\line.svg":[["line.9e658050.svg","css/blocks/footer/line.svg"],"css/blocks/footer/line.svg"],"./blocks\\footer\\social\\facebook-icon.svg":[["facebook-icon.fb85c478.svg","css/blocks/footer/social/facebook-icon.svg"],"css/blocks/footer/social/facebook-icon.svg"],"./blocks\\footer\\social\\twitter-icon.svg":[["twitter-icon.36a46224.svg","css/blocks/footer/social/twitter-icon.svg"],"css/blocks/footer/social/twitter-icon.svg"],"./blocks\\footer\\social\\vk-icon.svg":[["vk-icon.1f639f6c.svg","css/blocks/footer/social/vk-icon.svg"],"css/blocks/footer/social/vk-icon.svg"],"./blocks\\footer\\social\\instagram-icon.svg":[["instagram-icon.917dd9e5.svg","css/blocks/footer/social/instagram-icon.svg"],"css/blocks/footer/social/instagram-icon.svg"],"./blocks\\footer\\app\\appstore-icon.svg":[["appstore-icon.470520e4.svg","css/blocks/footer/app/appstore-icon.svg"],"css/blocks/footer/app/appstore-icon.svg"],"./blocks\\footer\\app\\googleplay-icon.svg":[["googleplay-icon.341cdb01.svg","css/blocks/footer/app/googleplay-icon.svg"],"css/blocks/footer/app/googleplay-icon.svg"],"./blocks\\footer\\logo-icon.svg":[["logo-icon.705feb2f.svg","css/blocks/footer/logo-icon.svg"],"css/blocks/footer/logo-icon.svg"],"_css_loader":"../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63237" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56704" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/styles.7fb21729.js.map

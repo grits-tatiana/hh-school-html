@@ -230,10 +230,20 @@ a:focus {
 }
 .heading {
   font: normal 26px/36px ProximaNovaCond, Arial, sans-serif;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
 }
 @media (min-width: 768px) {
   .heading {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+.heading_level-1 {
+  font-size: 26px;
+  line-height: 32px;
+}
+@media (min-width: 768px) {
+  .heading_level-1 {
     font-size: 36px;
     line-height: 44px;
   }
@@ -248,8 +258,49 @@ a:focus {
     line-height: 37px;
   }
 }
+.heading_level-3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+@media (min-width: 768px) {
+  .heading_level-3 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
 .content-section {
   padding: 30px 0;
+}
+.menu-section {
+  background-color: #fff;
+  display: none;
+}
+@media (min-width: 768px) {
+  .menu-section {
+    display: block;
+  }
+}
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+.menu-content__city {
+  color: #666;
+  font: normal 16px ProximaNovaCond, Arial, sans-serif;
+}
+.info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.info__item {
+  display: inline-block;
+  margin-left: 20px;
+}
+.info__link {
+  font: normal 16px ProximaNovaCond, Arial, sans-serif;
 }
 .header {
   background-color: #212122;
@@ -402,6 +453,228 @@ a:focus {
   position: absolute;
   top: 10px;
   left: 10px;
+}
+.services-section {
+  background-color: #eee;
+  padding: 15px 0;
+}
+@media (min-width: 768px) {
+  .services-content {
+    display: flex;
+  }
+}
+.services-content-block {
+  display: flex;
+}
+.services-content-block__icon-container {
+  align-self: center;
+  min-width: 40px;
+  height: 40px;
+  font: normal 14px/20px ProximaNovaCond, Arial, sans-serif;
+}
+@media (min-width: 1000px) {
+  .services-content-block__icon-container {
+    min-width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+}
+.services-content-block__icon-container_delivery {
+  background-image: url('delivery-icon.014d7ffa.svg');
+}
+.services-content-block__icon-container_return {
+  background-image: url('return-icon.99af3fde.svg');
+}
+.services-content-block__icon-container_support {
+  background-image: url('support-icon.5f292984.svg');
+}
+.services-content-block__text-container {
+  color: #333;
+  margin: 15px 20px;
+}
+@media (min-width: 768px) {
+  .services-content-block__text-container {
+    margin: 15px 0 15px 10px;
+  }
+}
+@media (min-width: 1000px) {
+  .services-content-block__text-container {
+    margin: 30px 0 30px 30px;
+  }
+}
+.footer {
+  background-color: #212122;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-content__line {
+  margin-top: 30px;
+  display: flex;
+  height: 1px;
+  flex-grow: 1;
+}
+.footer-content__line_image {
+  background-image: url('line.9e658050.svg');
+}
+.footer-content__copyright {
+  font: normal 14px/180% Arial;
+  color: #999;
+  margin-top: 15px;
+  padding-bottom: 22px;
+}
+@media (min-width: 768px) {
+  .footer-content__copyright {
+    padding-bottom: 29px;
+  }
+}
+@media (min-width: 1000px) {
+  .footer-content__copyright {
+    padding-bottom: 35px;
+  }
+}
+.footer-content-social-app-logo {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.footer-content-social {
+  display: flex;
+  height: 36px;
+  margin-top: 30px;
+}
+@media (min-width: 1000px) {
+  .footer-content-social {
+    margin-top: 40px;
+  }
+}
+.footer-content-social__icon {
+  width: 36px;
+  margin-right: 15px;
+}
+.footer-content-social__icon_facebook {
+  background-image: url('facebook-icon.fb85c478.svg');
+}
+.footer-content-social__icon_twitter {
+  background-image: url('twitter-icon.36a46224.svg');
+}
+.footer-content-social__icon_vk {
+  background-image: url('vk-icon.1f639f6c.svg');
+}
+.footer-content-social__icon_instagram {
+  background-image: url('instagram-icon.917dd9e5.svg');
+}
+.footer-content-app {
+  display: flex;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .footer-content-app {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 1000px) {
+  .footer-content-app {
+    margin-top: 40px;
+  }
+}
+.footer-content-app__icon {
+  height: 40px;
+  width: 140px;
+}
+.footer-content-app__icon_appstore {
+  background-image: url('appstore-icon.470520e4.svg');
+  margin-right: 8px;
+}
+.footer-content-app__icon_googleplay {
+  background-image: url('googleplay-icon.341cdb01.svg');
+}
+.footer-content-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 1000px) {
+  .footer-content-logo__icon {
+    background-image: url('logo-icon.705feb2f.svg');
+    height: 46px;
+    width: 46px;
+    margin-top: 43px;
+  }
+}
+.slider-section {
+  background-color: #f9f9f9;
+}
+.slider-content {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .slider-content {
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+}
+@media (min-width: 768px) {
+  .slider-content__image-container {
+    order: 2;
+    margin-top: 27px;
+  }
+}
+.slider-content__image {
+  width: 100%;
+}
+.slider-content__text-container {
+  text-align: center;
+  color: #333;
+}
+@media (min-width: 768px) {
+  .slider-content__text-container {
+    text-align: left;
+  }
+}
+.slider-content__button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .slider-content__button-container {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .slider-content-text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 1;
+  }
+}
+.slider-content-block-dots {
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 8px;
+  width: 44px;
+}
+@media (min-width: 768px) {
+  .slider-content-block-dots {
+    order: 3;
+    margin-bottom: 20px;
+    margin-top: 28px;
+  }
+}
+.slider-content-block-dots__dot-container {
+  border-radius: 50%;
+  background-color: #DFDEDD;
+  width: 8px;
+}
+.slider-content-block-dots__dot-container_choosen {
+  background-color: #212122;
 }
 
 
